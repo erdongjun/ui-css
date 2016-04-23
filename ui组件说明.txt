@@ -1,0 +1,65 @@
+弹性盒模型
+
+	uc，百度浏览器不支持 flex布局自动换行 ，注意避免使用
+
+	容器类(用于父元素上)
+
+	.flex-col 横向排列
+	.flex-row 纵向排列
+
+	对齐类(用于父元素上)
+
+	.flex-top 顶端对齐
+	.flex-bottom 底部对齐
+	.flex-left 左对齐
+	.flex-right 右对齐
+	.flex-middle 垂直居中
+	.flex-center 水平居中
+	.flex-between 等宽对齐
+
+	栅格类(用于子元素上)
+
+	.flex-item-*   *为从1-12数字，默认将屏幕进行12等分进行排列
+	.flex-offset-*   *为从1-12数字，向左偏移量
+	.flex-auto  自动填充宽度
+
+自定义栅格布局
+	
+	特别说明：需要在父元素上添加清除浮动类 .clearfix 以免影响整体布局
+
+	.col-lf-*  *为从1-12数字，向左浮动 默认将屏幕进行12等分进行排列 
+	.offset-lf-*  *为从1-12数字，向左偏移量
+	.col-rg-*  *为从1-12数字，向右浮动 默认将屏幕进行12等分进行排列 
+	.offset-rg-*  *为从1-12数字，向右偏移量
+
+自动隐藏文字
+
+	.ellipsis-1 一行文字隐藏
+	.ellipsis-2 两行文字隐藏
+	.ellipsis-* 可以设置多行文字隐藏需重新写入样式
+
+按钮组件
+
+	.btn 默认按钮
+
+表单类
+
+	.form 默认表单
+	.input-row 纵向表单
+	
+switch开关
+
+	.switch-title 信息说明
+	.switch	开关按钮
+	.switch:checked 选中开关
+
+列表组件
+	说明示例
+	<a class="list-box" href="">
+        <p>我的书架</p>
+        <i class="triangle"></i>
+    </a>
+    .list-box 列表盒子
+    .triangle 右侧的三角符号提示
+
+
